@@ -1,0 +1,66 @@
+ .SUB{
+            background-color:rgb(204, 27, 27);
+            color:aliceblue;
+            border:none;
+            height:35px;
+            width:110px;
+            padding:5px;
+            border-radius:3px;
+            cursor:pointer;
+            margin-right: 20px;
+            transition: background-color 0.5s;
+
+        
+        }
+        .SUB:hover{
+            background-color: brown;
+            
+           
+        }
+        .SUB:active{
+            background-color: rgb(4, 74, 4);
+            opacity: 0.5;
+            
+
+        }
+        .JOIN{
+            background-color: aliceblue;
+            width: 55px;
+            height: 28px;
+            border-color:rgb(0, 157, 255);
+            color:rgb(0, 166, 255);
+            border-style: solid;
+            border-radius:3px; 
+            cursor:pointer;
+            margin-right: 20px;
+            transition: background-color 0.5s,color 0.5s;
+
+        }
+        .JOIN:HOVER{
+            background-color:rgb(0, 166, 255); 
+            color: aliceblue;
+             border-color:rgb(5, 117, 186);
+        }
+        .JOIN:active{
+            opacity:0.6;
+        }
+
+        .TWEET{
+            height:30px;
+            width:80px;
+            border:none;
+            background-color: rgb(97, 94, 234);
+            font-weight:bold;
+            font-size: ;
+            color: aliceblue;
+            cursor:pointer;
+            border-radius: 15px;
+            box-shadow: 5PX 5PX 10PX rgba(0,0,0,0.5);
+            transition: box-shadow 0.5s,height 0.5s,width 0.5s;
+        }
+        .TWEET:HOVER{
+            box-shadow: 5PX 5PX 10PX rgba(0,0,0,0.4);
+            border-color: rgb(4, 4, 79);
+            height:40px;
+            width:85px;
+        }
