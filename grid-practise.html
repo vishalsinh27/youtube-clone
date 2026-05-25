@@ -3,13 +3,56 @@
 <title>grid practise</title>
 
 </head>
-<body>
+<body style=" padding-bottom: 1000px;">
 <div style="display: grid;
 grid-template-columns: 100px 100px;">
     <div style="background-color: aqua;">div1</div>
-    <div style="background-color: lightpink;">div2</div>
+    <div style="background-color: lightpink;">div2<p>text</p></div>
 
 </div>
+
+<div style="display: grid;
+grid-template-columns: 100px 100px 200px;
+margin-top: 10px;">
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: lightpink;">div2<p>text</p></div>
+    <div style="background-color: aqua;">div3</div>
+    <div style="background-color: lightpink;">div4</div>
+
+</div>
+<div style="display: grid;
+grid-template-columns: 100px 1fr;
+margin-top: 10px;">
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: lightpink;">div2 1fr<p>text</p></div>
+
+</div>
+
+</div>
+<div style="display: grid;
+grid-template-columns: 100px 1fr 2fr;
+margin-top: 10px;">
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: lightpink;">div2 1fr<p>text</p></div>
+    <div style="background-color: aqua;">div3 2fr</div>
+
+</div>
+<div style="display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 10px;
+column-gap: 20px;
+row-gap: 40px;">
+    <div style="background-color: aqua;
+    height:200px">div1</div>
+    <div style="background-color: lightpink;">div2 1fr<p>text</p></div>
+    <div style="background-color: aqua;">div3 2fr</div>
+ <div style="background-color: lightpink;
+    height:200px">div4</div>
+    <div style="background-color: aqua;">div5 <p>text</p></div>
+    <div style="background-color: lightpink;">div6 </div>
+
+</div>
+
 
 
 </body>
