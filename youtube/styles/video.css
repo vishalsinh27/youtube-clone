@@ -27,6 +27,7 @@
             }
             .thumbnail-row{
                 margin-bottom: 12px;
+                position:relative;
             }
             .ch-pic{
               
@@ -50,5 +51,19 @@
                 grid-template-columns: 1fr 1fr 1fr;
                 column-gap: 16px;
                 row-gap: 14px;
+            }
+            .v-time{
+                background-color:rgba(0, 0, 0, 0.769);
+                color:white;
+                position:absolute;
+                bottom:8px;
+                right:8px;
+                font-family: Roboto,Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: 500;
+                padding: 2px 4px;
+                border-radius: 3px;
+
+            
             }
 
