@@ -5,8 +5,38 @@
     top:55px;
     background-color: white;
     width: 70px;
+    z-index: 101;
+    padding-top: 5px;
 
 
 
 
+}
+.sidebar-icons{
+
+    height: 74px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+
+
+
+}
+.sidebar-icons:hover{
+    background-color:rgb(216, 218, 219)
+}
+.sidebar-icons img{
+    height: 25px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.sidebar-text{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
 }
