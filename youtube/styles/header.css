@@ -3,9 +3,11 @@
                 height: 33px;
                 padding-left: 12px;
                 border: 1px solid rgb(179, 177, 177);
-                border-radius: 2px;
+                border-radius: 1px;
                 box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
                 width:0;
+                padding-top:1px;
+                padding-bottom:2px;
 
 
             }
@@ -55,11 +57,16 @@
     align-items: center;
     
 }
-.search-button, 
-.voice-search-button{
-    height: 36px;
-    width: 66px;
-    background-color: rgb(233, 232, 232);
+.search-button{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+.upload-container, .apps-container, .notifications-container,
+.youtube-apps-container, .user-pfp-container
+{
     border-width: 1px;
     border-color: rgb(160, 159, 159);
     border-radius: 2px;
@@ -72,7 +79,13 @@
     
 }
 .search-button .tooltip,
- .voice-search-button .tooltip{
+ .voice-search-button .tooltip,
+ .upload-container .tooltip,
+ .apps-container .tooltip,
+ .notifications-container .tooltip,
+ .youtube-apps-container .tooltip
+{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
     position: absolute;
     background-color: rgb(134, 130, 130);
     color:aliceblue;
@@ -86,14 +99,35 @@
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
-
 }
+
+.user-pfp-container .tooltip {
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: rgb(43, 42, 42);
+    color:rgb(255, 0, 0);
+    border: 2px solid rgb(230, 102, 102);
+    padding-left : 6px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    bottom: -30px;
+    left: -120px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    }
+
+
 .search-button:hover .tooltip ,
  .voice-search-button:hover .tooltip,
  .upload-container:hover .tooltip,
  .apps-container:hover .tooltip,
  .notifications-container:hover .tooltip,
- .youtube-apps-container:hover .tooltip{
+ .youtube-apps-container:hover .tooltip,
+ .user-pfp-container:hover .tooltip{
     opacity: 1;
 }
 .search-icon{
@@ -126,12 +160,13 @@
 
 }
 .youtube-apps-icon{
+
     height: 24px;
 }
 .notifications-icon{
     height: 24px;
 }
-.notifications-container{
+.notifications-container,.upload-container, .apps-container, .youtube-apps-container{
     position: relative;
 }
 .notification-count{
