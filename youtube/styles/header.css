@@ -89,7 +89,11 @@
 
 }
 .search-button:hover .tooltip ,
- .voice-search-button:hover .tooltip{
+ .voice-search-button:hover .tooltip,
+ .upload-container:hover .tooltip,
+ .apps-container:hover .tooltip,
+ .notifications-container:hover .tooltip,
+ .youtube-apps-container:hover .tooltip{
     opacity: 1;
 }
 .search-icon{
